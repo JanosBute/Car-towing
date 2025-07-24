@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 70px;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -30,45 +30,25 @@ footer {
 
 
 section {
-    padding: 5% 5% 5% 5%;
+  padding: 5% 5% 5% 5%;
 }
 
-.navbar {
-  background-color: #333;
-}
-
-.navbar-brand img {
-  width: 150px;
-  height: auto;
-}
-
-.navbar-nav {
-  margin-left: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 100%;
+  .custom-navbar {
+    padding: 0.5rem 1rem;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
   }
 
-.navbar-nav .nav-item {
-  margin: 0 10px;
-  width: 10%;
-
-}
-
-#phone {
-  width: 20%;
-}
-
-.navbar-nav .nav-item a {
-  color: #f0f0f0;
-  padding: 10px 15px;
-  transition: color 0.3s ease;
-  text-decoration: none;
-}
-.navbar-nav .nav-item a:hover {
-  color: #ffd700;
-}
+  .call-button {
+    font-weight: bold;
+    padding: 0.4rem 1rem;
+    border-radius: 30px;
+    white-space: nowrap;
+  }
 
 .thumbnail {
   margin-top: 5%;
@@ -85,10 +65,10 @@ section {
   cursor: pointer;
 }
 
-figure:hover{
+figure:hover {
   transition: transform 0.3s ease-in-out;
   transform: scale(1.05);
-  }
+}
 
 .thumbnail:hover {
   filter: grayscale(0%);
@@ -106,7 +86,7 @@ figcaption {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto; 
+  width: auto;
   max-width: 100%;
   margin: auto;
 }
@@ -115,7 +95,7 @@ figcaption {
   background-color: transparent;
   border: none;
   padding: 0;
-  max-width: 100%; 
+  max-width: 100%;
   max-height: 100%;
   display: flex;
   justify-content: center;
@@ -123,10 +103,10 @@ figcaption {
 }
 
 #imageModal img {
-  width: auto; 
+  width: auto;
   height: auto;
-  max-width: 100%; 
-  max-height: 90%; 
+  max-width: 100%;
+  max-height: 90%;
   margin: auto;
   display: block;
 }
@@ -151,3 +131,13 @@ figcaption {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+  @media (max-width: 768px) {
+    .custom-navbar .call-button {
+      font-size: 0.9rem;
+      padding: 0.3rem 0.8rem;
+    }
+
+    .navbar-brand {
+      font-size: 1rem;
+    }
+  }

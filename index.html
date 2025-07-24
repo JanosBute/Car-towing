@@ -72,6 +72,7 @@
             <img src="pictures/icon.png" alt="Logo" height="35" class="me-2" />
             Szabó Ferenc
           </a>
+          <!-- JOBB OLDAL: Hívás gomb -->
           <a
             href="tel:+36301234567"
             class="btn btn-success call-button mx-auto"
@@ -82,29 +83,14 @@
       </nav>
     </header>
 
-    <main class="content mt-5">
+    <main class="content">
       <h1>Non-Stop Autómentés és Járműszállítás</h1>
       <section id="bemutatkozas">
-        <h2>Amiben segítségére lehetek:</h2>
-        <p>Lorem ipsum dolor sit amet...</p>
-      </section>
-      <section id="contact">
-        <h2>Kapcsolat</h2>
-        <address>
-          <p>Telefon: <a href="tel:+36 30 123 4567">+36 30 123 4567</a></p>
-          <p>Email: <a href="mailto:info@automento.hu">info@automento.hu</a></p>
+        <article>
           <p>
-            Weboldal: <a href="https://automento.hu">https://automento.hu</a>
+            Gyors, megbízható és kedvező árú autómentés Hajdú-Bihar megyében.
           </p>
-          <p>Cím: 4025 Debrecen, Példa utca 123.</p>
-        </address>
-      </section>
-      <section id="referenciak">
-        <h2>Referenciák</h2>
-        <div
-          id="thumbnail"
-          class="d-flex justify-content-center align-items-center flex-wrap gap-3"
-        >
+        </article>
           <figure>
             <img
               src="pictures/car_thumbnail1.jpg"
@@ -114,9 +100,14 @@
               data-bs-target="#imageModal"
               data-img="pictures/car1.jpg"
             />
-            <figcaption>Kép 1</figcaption>
+            <figcaption></figcaption>
           </figure>
-          <figure>
+      </section>
+
+      <h2>Kapcsolat</h2>
+      
+      <section id="contact">
+        <figure>
             <img
               src="pictures/car_thumbnail2.jpg"
               alt="Kép 2"
@@ -125,12 +116,31 @@
               data-bs-target="#imageModal"
               data-img="pictures/car2.jpg"
             />
-            <figcaption>Kép 2</figcaption>
-          </figure>
-          <figure>
-            <img
-              src="pictures/car_thumbnail3.jpg"
-              alt="Kép 3"
+            <figcaption>Non-stop szolgáltatásunkkal éjjel-nappal rendelkezésére állunk.</figcaption>
+        </figure>
+          <article>            
+            <p>
+              Ha autómentésre van szüksége, hívjon minket a
+              <strong><a href="tel:+36 30 123 4567">+36 30 123 4567</a></strong> telefonszámon, vagy írjon nekünk
+              e-mailben az <a href="mailto:info@automento.hu">info@automento.hu</a> címre.
+            </p>
+         </article>
+        </section>
+          <h2>Referenciák</h2>
+          <section id="references">
+            <article>
+              <p>
+                Itt találhatók a legutóbbi munkáink, amelyek bemutatják szolgáltatásaink
+                minőségét és megbízhatóságát.
+              </p>
+              <div
+                id="thumbnail"
+                class="d-flex justify-content-center align-items-center flex-wrap gap-3"
+              >
+                <figure>
+                  <img
+                    src="pictures/car_thumbnail3.jpg"
+                    alt="Kép 3"
               class="thumbnail"
               data-bs-toggle="modal"
               data-bs-target="#imageModal"
@@ -138,7 +148,7 @@
             />
             <figcaption>Kép 3</figcaption>
           </figure>
-        </div>
+       
       </section>
     </main>
 
@@ -163,6 +173,14 @@
     </div>
 
     <footer>
+      <address>
+        <p>Telefon: <a href="tel:+36 30 123 4567">+36 30 123 4567</a></p>
+        <p>Email: <a href="mailto:info@automento.hu">info@automento.hu</a></p>
+        <p>
+          Weboldal: <a href="https://automento.hu">https://automento.hu</a>
+        </p>
+        <p>Cím: 4025 Debrecen, Példa utca 123.</p>
+      </address>
       <p>© 2024-<span id="year"></span> Minden jog fenntartva.</p>
     </footer>
 

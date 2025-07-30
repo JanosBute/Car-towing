@@ -1,190 +1,128 @@
 <!DOCTYPE html>
 <html lang="hu">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Autómentés és Járműszállítás</title>
 
-    <title>Autómentés és Járműszállítás</title>
+  <!-- SEO Meta -->
+  <meta name="description" content="Autómentés és autószállítás gyorsan, megbízhatóan. Hívjon bizalommal a +36 30 123 4567 számon!" />
 
-    <meta
-      name="description"
-      content="Autómentés és autószállítás gyorsan, megbízhatóan. Hívjon bizalommal a +36 30 123 4567 számon!"
-    />
-    <meta
-      name="keywords"
-      content="autómentés, autószállítás hajdú-bihar, gépjárműszállítás, autómentő szolgáltatás, 
-    országos autó szállítás, balesetes autó szállítása, műszaki hibás autó elszállítása"
-    />
-    <meta name="author" content="Szabó Ferenc - autómentő szolgáltatás" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="icon" href="pictures/favicon.ico" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="navbar fixed-top custom-navbar">
+      <div class="container-fluid justify-content-between align-items-center d-flex">
+        <a class="d-flex align-items-center" href="#">
+          Szabó Autómentés
+          <img src="pictures/icon-removebg-preview.png" alt="Logó" height="35" class="me-2" />
+        </a>
+        <a href="tel:+36301234567" class="call-button"> Hívjon most!</a>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Open Graph Meta Tags -->
-    <meta
-      property="og:title"
-      content="Autómentés Non-Stop - Gyors és Megbízható"
-    />
-    <meta
-      property="og:description"
-      content="Autómentés és autószállítás gyorsan, megbízhatóan. Hívjon bizalommal a +36 30 123 4567 számon!"
-    />
-    <meta
-      property="og:image"
-      content="https://automento.hu/images/automento-preview.jpg"
-    />
-    <meta property="og:image:alt" content="Autómentő szolgáltatás képe" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:url" content="https://automento.hu" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="hu_HU" />
+  <main class="content">
+  <!-- CTA szalag -->
+  <section class="cta-section">
+    <h2>Problémája van az úton? Segítünk!</h2>
+    <a href="tel:+3612345678" class="cta-button">Most hívjon!</a>
+  </section>
 
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="Autómentés Non-Stop - Gyors és Megbízható"
-    />
-    <meta
-      name="twitter:description"
-      content="Autómentés és autószállítás gyorsan, megbízhatóan. Hívjon bizalommal a +36 30 123 4567 számon!"
-    />
-    <meta
-      name="twitter:image"
-      content="https://automento.hu/images/automento-preview.jpg"
-    />
+    <section>
+      <article>
+        <h1>Non-Stop Autómentés és Járműszállítás</h1>
+        <p>Gyors, megbízható és kedvező árú autómentés Hajdú-Bihar megyében.</p>
+      </article>
+      <figure>
+        <img src="pictures/car_thumbnail1.jpg" alt="Kép 1" class="thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="pictures/car1.jpg" />
+      </figure>
+    </section>
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="pictures/favicon.ico" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-dark bg-dark fixed-top custom-navbar">
-        <div
-          class="container-fluid d-flex justify-content-between align-items-center"
-        >
-          <!-- BAL OLDAL: Logó -->
-          <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="pictures/icon.png" alt="Logo" height="35" class="me-2" />
-            Szabó Ferenc
-          </a>
-          <!-- JOBB OLDAL: Hívás gomb -->
-          <a
-            href="tel:+36301234567"
-            class="btn btn-success call-button mx-auto"
-          >
-            📞 Hívjon most!
-          </a>
-        </div>
-      </nav>
-    </header>
+    <section>
+      <figure>
+        <img src="pictures/car_thumbnail2.jpg" alt="Kép 2" class="thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="pictures/car2.jpg" />
+        <figcaption>Non-stop szolgáltatásunkkal éjjel-nappal rendelkezésére állunk.</figcaption>
+      </figure>
+      <article>
+        <h2>Kapcsolat</h2>
+        <p>Hívjon minket a <strong><a href="tel:+36 30 123 4567">+36 30 123 4567</a></strong> telefonszámon, vagy írjon az <a href="mailto:info@automento.hu">info@automento.hu</a> címen.</p>
+      </article>
+    </section>
 
-    <main class="content">
-      <h1>Non-Stop Autómentés és Járműszállítás</h1>
-      <section id="bemutatkozas">
-        <article>
-          <p>
-            Gyors, megbízható és kedvező árú autómentés Hajdú-Bihar megyében.
-          </p>
-        </article>
-          <figure>
-            <img
-              src="pictures/car_thumbnail1.jpg"
-              alt="Kép 1"
-              class="thumbnail"
-              data-bs-toggle="modal"
-              data-bs-target="#imageModal"
-              data-img="pictures/car1.jpg"
-            />
-            <figcaption></figcaption>
-          </figure>
-      </section>
+    <section>
+      <article>
+        <h2>Referenciák</h2>
+        <p>Legutóbbi munkáink, amelyek bemutatják szolgáltatásaink minőségét és megbízhatóságát.</p>
+      </article>
+      <figure>
+        <img src="pictures/car_thumbnail3.jpg" alt="Kép 3" class="thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal" data-img="pictures/car3.jpg" />
+        <figcaption>Kép 3</figcaption>
+      </figure>
+    </section>
 
-      <h2>Kapcsolat</h2>
-      
-      <section id="contact">
-        <figure>
-            <img
-              src="pictures/car_thumbnail2.jpg"
-              alt="Kép 2"
-              class="thumbnail"
-              data-bs-toggle="modal"
-              data-bs-target="#imageModal"
-              data-img="pictures/car2.jpg"
-            />
-            <figcaption>Non-stop szolgáltatásunkkal éjjel-nappal rendelkezésére állunk.</figcaption>
-        </figure>
-          <article>            
-            <p>
-              Ha autómentésre van szüksége, hívjon minket a
-              <strong><a href="tel:+36 30 123 4567">+36 30 123 4567</a></strong> telefonszámon, vagy írjon nekünk
-              e-mailben az <a href="mailto:info@automento.hu">info@automento.hu</a> címre.
-            </p>
-         </article>
-        </section>
-          <h2>Referenciák</h2>
-          <section id="references">
-            <article>
-              <p>
-                Itt találhatók a legutóbbi munkáink, amelyek bemutatják szolgáltatásaink
-                minőségét és megbízhatóságát.
-              </p>
-              <div
-                id="thumbnail"
-                class="d-flex justify-content-center align-items-center flex-wrap gap-3"
-              >
-                <figure>
-                  <img
-                    src="pictures/car_thumbnail3.jpg"
-                    alt="Kép 3"
-              class="thumbnail"
-              data-bs-toggle="modal"
-              data-bs-target="#imageModal"
-              data-img="pictures/car3.jpg"
-            />
-            <figcaption>Kép 3</figcaption>
-          </figure>
-       
-      </section>
-    </main>
-
-    <div
-      id="imageModal"
-      class="modal fade"
-      tabindex="-1"
-      data-bs-backdrop="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content position-relative">
-          <button
-            type="button"
-            class="btn-close position-absolute top-0 start-50 translate-middle-x mt-2"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-
-          <img id="modalImage" class="img-fluid" alt="Kép" />
-        </div>
+    <!-- GYIK szakasz -->
+  <section class="faq-section">
+    <h2>Gyakran Ismételt Kérdések</h2>
+    <div class="faq">
+      <div class="faq-item">
+        <div class="faq-question">Milyen típusú járműveket tudnak elszállítani?</div>
+        <div class="faq-answer">Személyautókat, kisteherautókat és motorkerékpárokat is elszállítunk.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Mennyi idő alatt érnek a helyszínre?</div>
+        <div class="faq-answer">Átlagosan 30-60 percen belül a helyszínre érkezünk, forgalomtól függően.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Lehet bankkártyával fizetni?</div>
+        <div class="faq-answer">Igen, sofőrjeinknél lehetőség van bankkártyás fizetésre.</div>
       </div>
     </div>
+  </section>
 
-    <footer>
-      <address>
-        <p>Telefon: <a href="tel:+36 30 123 4567">+36 30 123 4567</a></p>
-        <p>Email: <a href="mailto:info@automento.hu">info@automento.hu</a></p>
-        <p>
-          Weboldal: <a href="https://automento.hu">https://automento.hu</a>
-        </p>
-        <p>Cím: 4025 Debrecen, Példa utca 123.</p>
-      </address>
-      <p>© 2024-<span id="year"></span> Minden jog fenntartva.</p>
-    </footer>
+  <!-- Google Maps térkép -->
+  <section class="map-section">
+    <h2>Hol dolgozunk?</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10717.25806102859!2d19.0402359!3d47.4979122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc391f5ed5e7%3A0xf0e5b4d2e738dc3c!2sBudapest!5e0!3m2!1shu!2shu!4v1593423423123" allowfullscreen></iframe>
+  </section>
+  </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+  <!-- MODÁLIS KÉPGALÉRIA -->
+  <div id="imageModal" class="modal fade" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content position-relative">
+        <button type="button" class="btn-close position-absolute top-0 start-50 translate-middle-x mt-2" data-bs-dismiss="modal" aria-label="Bezárás"></button>
+        <img id="modalImage" class="img-fluid" alt="Nagy kép" />
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-4">
+    <address>
+      <p>Telefon: <a href="tel:+36 30 123 4567" class="text-warning">+36 30 123 4567</a></p>
+      <p>Email: <a href="mailto:info@automento.hu" class="text-warning">info@automento.hu</a></p>
+      <p>Weboldal: <a href="https://automento.hu" class="text-warning">automento.hu</a></p>
+      <p>Cím: 4025 Debrecen, Példa utca 123.</p>
+    </address>
+    <p>© 2024–<span id="year"></span> Minden jog fenntartva.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Évszám frissítése
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Modális képcsere
+    document.querySelectorAll(".thumbnail").forEach((thumb) => {
+      thumb.addEventListener("click", () => {
+        document.getElementById("modalImage").src = thumb.dataset.img || thumb.src;
+      });
+    });
+  </script>
+</body>
 </html>

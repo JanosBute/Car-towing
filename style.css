@@ -1,26 +1,31 @@
 :root {
   --main-color: #61892f;
   --accent-color: #86c232;
-  --light-bg: #aeb3b6;
+  --light-bg: rgba(174, 179, 182, 0.459);
   --dark-bg: #222629;
   --text-color: #474b4f;
   --overlay-bg: rgba(0, 0, 0, 0.5);
 }
 
+#bgVideo {
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background-image: url("./pictures/background.jpg");
+  /*background-image: url("./pictures/background.jpg");*/
   color: var(--text-color);
   display: grid;
   grid-template-rows: auto 1fr auto;
   scroll-behavior: smooth;
 }
 
-footer {
-  background-color: var(--dark-bg);
-  color: var(--text-color);
-}
 
 /*Fejléc*/
 .custom-navbar {
@@ -132,6 +137,17 @@ figcaption {
   font-size: 1rem;
 }
 
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  figure img {
+    width: 80%;
+  }
+}
+
+.gale > figure:nth-child(2)
+
 /*Gyik szakasz*/
 .faq-section,
 .cta-section,
@@ -189,6 +205,7 @@ figcaption {
   border: 0;
 }
 
+/*Lábléc*/
 footer {
   text-align: center;
   padding: 1.5rem 1rem;
@@ -244,4 +261,12 @@ footer a:hover {
       margin: 1rem auto;
     }
   }
+
+  .gallery {
+    flex-direction: column;
+    figure {
+      margin: 0 auto;
+    }
+  }
+
 }

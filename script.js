@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  //Navbar görgetésre eltűnik
   var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;

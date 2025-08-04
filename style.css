@@ -1,9 +1,9 @@
 :root {
-  --main-color: #61892f;
+  --main-color: #40443a;
   --accent-color: #86c232;
   --light-bg: rgba(174, 179, 182, 0.459);
-  --dark-bg: #222629;
-  --text-color: #474b4f;
+  --dark-bg: #22262984;
+  --text-color: #ced5db;
   --overlay-bg: rgba(0, 0, 0, 0.5);
 }
 
@@ -179,25 +179,6 @@ figcaption {
   font-weight: bold;
 }
 
-/*CTA szalag*/
-.cta-section {
-  background-color: var(--light-bg);
-  text-align: center;
-  h2 {
-    color: var(--text-color);
-  }
-}
-
-.cta-button {
-  background-color: var(--light-bg);
-  color: white;
-  padding: 18px;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  display: inline-block;
-}
-
 /*Google térkép*/
 .map-section iframe {
   width: 100%;
@@ -245,6 +226,9 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+  .content {
+    padding-top: 8rem;
+  }
   section {
     flex-direction: column;
     padding: 1.5rem;
@@ -261,7 +245,12 @@ footer a:hover {
       margin: 1rem auto;
     }
   }
-
+  .thumbnail {
+    filter: grayscale(0);
+  }
+  article {
+    flex: 1 1 100px;
+  }
   .gallery {
     flex-direction: column;
     figure {

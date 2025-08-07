@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /admin/
+Allow: /
 
-Sitemap: https://automento.hu/sitemap.xml
+Sitemap: https://szaboautomentes.com/sitemap.xml

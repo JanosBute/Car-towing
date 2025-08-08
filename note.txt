@@ -8,3 +8,6 @@
 
 2,5 tonna
 open graph, google map csillagok, hozzászólások
+
+google search consol
+email fiók értesítés beállítása
